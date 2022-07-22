@@ -44,6 +44,9 @@ public class Product {
     @Column(name = "rating", nullable = false)
     private String rating;
 
+    @Column(name = "status", nullable = false)
+    private Integer status;
+
     @CreationTimestamp
     @Temporal(TemporalType.TIMESTAMP)
     @Column(name = "created_at", nullable = false)
