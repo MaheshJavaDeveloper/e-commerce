@@ -8,7 +8,12 @@ function App() {
   return (
     <div className="App">
       <ResponsiveAppBar />
-      <Dashboard/>
+      <div className='App-Start'>
+        <Dashboard />  
+        <Dashboard />  
+        <Dashboard />  
+        <Dashboard />      
+      </div>     
     </div>
   );
 }
