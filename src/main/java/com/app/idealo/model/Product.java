@@ -44,6 +44,9 @@ public class Product {
     @Column(name = "rating", nullable = false)
     private String rating;
 
+    @Column(name = "category", nullable = false)
+    private String category;
+
     @Column(name = "status", nullable = false)
     private Integer status;
 

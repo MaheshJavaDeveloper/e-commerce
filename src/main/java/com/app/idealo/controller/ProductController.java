@@ -26,6 +26,11 @@ public class ProductController {
         return productRepositry.findAll();
     }
 
+    @GetMapping("/products/category/{category}")
+    public List<Product> getAllUsers(@PathVariable(value = "category") String category) {
+        return productRepositry.findByCategory(category);
+    }
+
     @GetMapping("/product/{id}")
     public ResponseEntity<Product> getUsersById(@PathVariable(value = "id") Long productId)
             throws ResourceNotFoundException {
