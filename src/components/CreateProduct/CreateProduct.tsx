@@ -61,7 +61,7 @@ export default function CreateProduct(CreateProductProps: any) {
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(data)
     };
-    fetch('http://localhost:8080/api/v1/product', requestOptions)
+    fetch('https://idealo-api.herokuapp.com/api/v1/product', requestOptions)
       .then(response => response.json())
       .then(data => {
         console.log(data);
