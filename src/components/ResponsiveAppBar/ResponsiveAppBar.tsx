@@ -22,6 +22,10 @@ const link = {
     textDecoration: "none"
 };
 
+const appheader = {
+    backgroundColor: "#0A3761"
+};
+
 const ResponsiveAppBar = () => {
     const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(null);
     const [anchorElUser, setAnchorElUser] = React.useState<null | HTMLElement>(null);
@@ -42,10 +46,10 @@ const ResponsiveAppBar = () => {
     };
 
     return (
-        <AppBar position="static">
+        <AppBar position="static" style={appheader}>
             <Container maxWidth="xl">
                 <Toolbar disableGutters>
-                    <ShoppingCartIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
+                    <ShoppingCartIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1,color:'#FF6600' }} />
                     <Typography
                         variant="h6"
                         noWrap
@@ -138,7 +142,7 @@ const ResponsiveAppBar = () => {
                     <Box sx={{ flexGrow: 0 }}>
                         <Tooltip title="Open settings">
                             <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-                                <Avatar sx={{ bgcolor: pink[500] }} alt="Mahesh" src="/static/images/avatar/2.jpg" />
+                                <Avatar sx={{ bgcolor: '#FF6600' }} alt="Mahesh" src="/static/images/avatar/2.jpg" />
                             </IconButton>
                         </Tooltip>
                         <Menu
