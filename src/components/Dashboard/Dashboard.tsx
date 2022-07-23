@@ -9,7 +9,7 @@ function Dashboard(DashboardProps: any) {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:8080/api/v1/products')
+    fetch('https://idealo-api.herokuapp.com/api/v1/products')
       .then(response => response.json())
       .then(data => setProducts(data));
   }, []);
