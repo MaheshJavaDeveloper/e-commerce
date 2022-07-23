@@ -20,7 +20,7 @@ public class ProductService {
 
         //Setting Default values
         product.setBestPriceDate(new Date());
-        product.setHistoricalBestPrice(0);
+        product.setHistoricalBestPrice(product.getCurrentPrice());
         product.setRating("5");
         product.setStatus(1);
 
@@ -46,7 +46,7 @@ public class ProductService {
     }
 
     public void handlePrice(Product product) {
-        if (product.getCurrentPrice() > product.getHistoricalBestPrice()) {
+        if (product.getCurrentPrice() <= product.getHistoricalBestPrice()) {
             product.setHistoricalBestPrice(product.getCurrentPrice());
             product.setBestPriceDate(new Date());
         }
