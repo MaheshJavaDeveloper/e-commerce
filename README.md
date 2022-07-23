@@ -1,6 +1,7 @@
 # Project: Ecommerce Portal
 This portal is built to show current weather and historical weather status for the given city using the search bar provided in the application.
-![image](https://user-images.githubusercontent.com/61374040/180617729-74ae314c-316b-4bd8-98b0-09bb47915aaf.png)
+![image](https://user-images.githubusercontent.com/61374040/180626139-77e50dcd-79d1-4a05-925c-3ac3879242d5.png)
+
 
 ## Front End Application - [Idealo Portal](https://github.com/MaheshJavaDeveloper/e-commerce/tree/main/idealo-app) (React)
 Front end application is built using react and also used additional frameworks below to achieve the requirements.
@@ -32,7 +33,8 @@ Added all the possible test cases to perform the Unit Test Cases in the applicat
 
 ## User Guide to get weather status
 #### Home Page
-![image](https://user-images.githubusercontent.com/61374040/180617911-4639987f-72a1-4adb-a8d0-6c0f3265748c.png)
+![image](https://user-images.githubusercontent.com/61374040/180626142-cfc0529b-7136-4b3e-ba27-c64b35d99c85.png)
+
 #### Create Product.
 ![image](https://user-images.githubusercontent.com/61374040/180617920-a1d5d2f8-9433-424e-bbb6-29a2142c50bd.png)
 
