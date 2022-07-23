@@ -1,4 +1,4 @@
-INSERT INTO product (id,best_price_date,category,created_at,created_by,current_price,description,historical_best_price,image_url,name,producer,rating,status,updated_at,updated_by) VALUES
+INSERT INTO public.product (id,best_price_date,category,created_at,created_by,current_price,description,historical_best_price,image_url,name,producer,rating,status,updated_at,updated_by) VALUES
 	 (1,'2022-07-23 00:30:38.624','All','2022-07-23 00:30:38.642','WebShopAdmin',500,'dsfsdf',200,'https://i.insider.com/629501b9f099c4001956c93a?width=700','Rolex','Rolex','4',1,'2022-07-23 00:30:38.643','WebShopAdmin'),
 	 (2,'2022-07-23 15:06:31.411','All','2022-07-23 15:06:31.52','WebShopAdmin',250,'dsfsdf',200,'https://cdn.cdnparenting.com/articles/2019/04/01122845/Creative-Toys-for-Kids-462740626.jpg','Toys','Disney','5',1,'2022-07-23 15:06:31.52','WebShopAdmin'),
 	 (3,'2022-07-23 17:40:41.622','All','2022-07-23 17:40:41.983','WebShopAdmin',545,'dsfsdf',545,'https://www.devmusicalindia.in/assets/1557991777420-172.Yamaha%20Cfx%20Concert%20Grand%20Piano%20(2).jpg','Piano','Yamaha','5',1,'2022-07-23 17:40:41.983','WebShopAdmin'),
