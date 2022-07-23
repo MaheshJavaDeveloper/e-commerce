@@ -17,8 +17,13 @@ public class ProductService {
     ProductRepositry productRepositry;
 
     public Product createProduct(Product product) {
+
+        //Setting Default values
         product.setBestPriceDate(new Date());
         product.setHistoricalBestPrice(0);
+        product.setRating("5");
+        product.setStatus(1);
+
         handlePrice(product);
         return productRepositry.save(product);
     }

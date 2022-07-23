@@ -43,7 +43,6 @@ public class ProductController {
 
     @PostMapping("/product")
     public ResponseEntity<Product> createProduct(@RequestBody Product product) {
-        log.info(String.valueOf(product));
         return ResponseEntity.ok().body(productService.createProduct(product));
     }
 
