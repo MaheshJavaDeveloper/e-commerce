@@ -2,6 +2,9 @@
 This portal is built to show current weather and historical weather status for the given city using the search bar provided in the application.
 ![image](https://user-images.githubusercontent.com/61374040/180626139-77e50dcd-79d1-4a05-925c-3ac3879242d5.png)
 
+## Demo
+### Frontend: https://idealo-app.herokuapp.com/
+### Backend: https://idealo-api.herokuapp.com/api/v1/products
 
 ## Front End Application - [Idealo Portal](https://github.com/MaheshJavaDeveloper/e-commerce/tree/main/idealo-app) (React)
 Front end application is built using react and also used additional frameworks below to achieve the requirements.
